@@ -1,0 +1,1539 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>旅館業 許可インデックス｜旅館業の営業許可施設を、許可年月日からの経過月数順に</title>
+<meta name="description" content="自治体が公表している旅館業法の営業許可施設一覧を横断で集め、許可年月日からの経過月数順に108件掲載。営業形態・客室数・収容人員・屋号のWeb痕跡まで、すべて出典リンク付き。">
+<style>
+:root{--bg:#f5f4f0;--panel:#fff;--ink:#221d16;--sub:#6b6154;--sub2:#968c7d;--ac:#9a5b1e;--line:#e4ded2;--hot:#b23a1a;--A:#166534;--B:#7c7c88;--C:#8a7a68;--ok:#166534;--ng:#a6a09a}
+@media(prefers-color-scheme:dark){:root{--bg:#12100c;--panel:#1c1913;--ink:#eae3d6;--sub:#a3988a;--sub2:#7c7266;--ac:#d99a4e;--line:#2e2920;--hot:#f0864f;--A:#5ec27d;--B:#9c968e;--C:#b0a692;--ok:#5ec27d;--ng:#6d675f}}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;-webkit-text-size-adjust:100%}
+.wrap{max-width:940px;margin:0 auto;padding:0 14px}
+header{background:linear-gradient(135deg,#7a4415,#3d2409);color:#fff;padding:30px 0 26px}
+h1{margin:0;font-size:23px;letter-spacing:.02em}
+.tag{opacity:.93;margin-top:8px;font-size:13.5px;max-width:62em}
+.pills{margin-top:14px;display:flex;flex-wrap:wrap;gap:7px}
+.pills span{background:rgba(255,255,255,.16);border-radius:20px;padding:4px 12px;font-size:12.5px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:16px 0}
+summary{cursor:pointer;padding:13px 15px;font-weight:700;font-size:14px;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ ";color:var(--ac)}
+details[open] summary::before{content:"▾ "}
+.dbody{padding:0 15px 15px;font-size:13px;color:var(--sub)}
+.dbody p{margin:8px 0}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:12.5px}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:rgba(128,128,128,.08);white-space:nowrap}
+td a{color:var(--ac);white-space:nowrap}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ok{color:var(--ok)}.ng{color:var(--ng)}
+.sub3{font-size:11px;color:var(--sub2);font-weight:400}
+.filters{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0 10px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.fgrid{display:flex;flex-wrap:wrap;gap:7px}
+.filters select,.filters input{font:inherit;font-size:13px;padding:7px 9px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);max-width:100%}
+.filters input{flex:1;min-width:150px}
+.hit{margin-top:8px;font-size:12.5px;color:var(--sub)}
+main{padding:6px 0 50px}
+.c{display:flex;gap:13px;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px;margin:10px 0}
+.left{flex:0 0 92px;text-align:center;border-right:1px solid var(--line);padding-right:10px}
+.mo{font-size:18px;font-weight:800;color:var(--ac);line-height:1.25}
+.mo small{display:block;font-size:11px;font-weight:600;color:var(--sub)}
+.mo.hot{color:var(--hot)}
+.mo.none2{font-size:12px;font-weight:700;color:var(--sub2)}
+.pd{font-size:11.5px;color:var(--sub);margin-top:4px}
+.body{flex:1;min-width:0}
+.body h3{margin:5px 0 8px;font-size:16px;line-height:1.4;word-break:break-word}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tags span{font-size:11px;border-radius:6px;padding:2px 7px;background:rgba(128,128,128,.13);color:var(--sub)}
+.tags .ex{border:1px dashed var(--line)}
+.j{font-weight:700!important;color:#fff!important;min-width:1.6em;text-align:center}
+.jA{background:var(--A)!important}.jB{background:var(--B)!important}.jC{background:var(--C)!important}
+.kv{display:flex;gap:8px;font-size:13px;margin:3px 0}
+.kv>span{flex:0 0 8.6em;color:var(--sub);font-size:12px;padding-top:1px}
+.kv>b{flex:1;min-width:0;font-weight:600;word-break:break-word}
+.tr{font-weight:500!important;color:var(--sub)}
+.tr.zero{font-weight:700!important;color:var(--A)}
+.src{margin-top:8px;font-size:12.5px}
+.src a{color:var(--ac);text-decoration:none;font-weight:600}
+.none{background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:26px;text-align:center;color:var(--sub);font-size:13px}
+footer{border-top:1px solid var(--line);padding:20px 0 46px;font-size:12px;color:var(--sub)}
+footer ul{padding-left:1.2em;margin:8px 0}
+footer a{color:var(--ac)}
+@media(max-width:560px){
+ .c{gap:10px;padding:12px}.left{flex-basis:74px;padding-right:8px}.mo{font-size:15px}
+ .kv{display:block}.kv>span{display:block;font-size:11px}
+}
+</style></head><body>
+<header><div class="wrap">
+<h1>旅館業 許可インデックス</h1>
+<div class="tag">保健所を設置する自治体が公表している「旅館業法に基づく営業許可施設一覧」を横断で集め、許可年月日からの経過月数順に並べた一覧。営業形態・客室数・収容人員・屋号のWeb痕跡の有無まで、すべて出典リンク付きで並べています。</div>
+<div class="pills">
+ <span>掲載 108件</span>
+ <span>許可年月日あり 108件</span>
+ <span>A：Web痕跡なし 0件</span>
+ <span>B：少ない／未確認 95件</span>
+ <span>C：痕跡あり／日付なし 13件</span>
+ <span>客室数の公表あり 48件</span>
+ <span>出典 4ファイル</span>
+ <span>2026-08-27時点</span>
+</div>
+</div></header>
+<div class="wrap">
+
+<details>
+<summary>この一覧は何か、A／B／C が何を意味するか（必ずお読みください）</summary>
+<div class="dbody">
+<p>旅館業法第3条により、旅館業を営むには都道府県知事（保健所を設置する市・特別区ではその長）の<b>許可</b>が要ります。許可を受けた施設の一覧は、各自治体が自ら「旅館業法に基づく営業許可施設一覧」として公表しており、多くはオープンデータのCSVとして置かれています。この一覧は、その公表物に書かれている事実だけを集め、<b>許可年月日からの経過月数</b>順に並べたものです。</p>
+<p><b>経過月数は計算値です。</b>許可が下りてから何ヶ月たったかというだけで、その間に営業していたかどうかとは無関係です。休業・季節営業・許可の承継・屋号の変更など、一覧からは分からないことが多くあります。</p>
+<p><b>A／B／C は当サイトが公開情報だけから機械的に付けた区分です。</b>根拠は「許可年月日が公表されているか」と「屋号で検索したときに自治体以外のドメインの言及が出てくるか」の2点のみ。楽天トラベル・Vacation STAY 等のOTAやGoogleマップ上の掲載有無を確認したものではありません（本サイトは外部APIを利用していません）。<b>施設が稼働していないことを示すものではありません。</b></p>
+<div class="scroll"><table>
+<tr><th>区分</th><th>付ける条件</th><th>注意</th></tr>
+<tr><td><b>A</b></td><td>許可年月日が公表されており、屋号で検索しても自治体ドメイン以外の言及が見つからなかった施設</td><td>検索エンジンで見つからなかったというだけの事実。営業していないことの証明ではない（屋号を変えている・検索に出にくい・掲載の意思がない等はいくらでもある）。</td></tr><tr><td><b>B</b></td><td>許可年月日は公表されているが、Web痕跡が1〜2ドメインだけ、または当サイトがまだ検索を実行していない施設</td><td>検索の実行数には上限をかけているため、多くはこの区分に入る。</td></tr><tr><td><b>C</b></td><td>屋号で検索して3ドメイン以上の言及がある、または出典の一覧に許可年月日の欄がない施設</td><td>経過月数が計算できない自治体の施設もここに入る。</td></tr>
+</table></div>
+<p>Web痕跡の確認は1回の収集あたり件数の上限をかけています（現在 15件を確認済み／掲載 108件）。確認していない施設は自動的にBに入ります。検索エンジンの結果は日によって変わるので、<b>0件でも「そのとき見つからなかった」以上の意味は持ちません。</b></p>
+<p>カードに付く「全国チェーン」「公共・保養・研修」などの目印は、<b>施設名から機械的に付けた分類</b>です。事業者の能力・優劣を評価するものではなく、絞り込みの目印として付けているだけで、一覧からは除いていません。</p>
+</div>
+</details>
+
+<details>
+<summary>公開状況カバレッジ表 ── どの自治体が、何を欄に持っているか（7ファイル）</summary>
+<div class="dbody">
+<p>旅館業の営業許可施設一覧は、公表しているかどうかも、どの項目を欄に持つかも自治体ごとにばらばらです。<b>許可年月日の欄がない自治体は珍しくなく</b>、客室数・収容人員まで載せている自治体はさらに少数です。この表は、当サイトが実際に取得して確認したファイルの状況をそのまま並べたものです。</p>
+<div class="scroll"><table>
+<tr><th>自治体</th><th>形式</th><th>許可年月日</th><th>営業形態</th><th>客室数</th><th>収容人員</th><th>氏名欄</th><th>取得件数</th><th>出典</th></tr>
+<tr>
+  <td>長野県<div class="sub3">長野県（県所管の保健所分）</div></td>
+  <td>CSV</td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td>12件</td>
+  <td><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>栃木県宇都宮市<div class="sub3">宇都宮市（保健所設置市）</div></td>
+  <td>CSV</td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td>48件</td>
+  <td><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>静岡県<div class="sub3">静岡県（県所管の保健所分・令和8年3月31日現在）</div></td>
+  <td>CSV</td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><b class="ok">あり</b></td>
+  <td>47件</td>
+  <td><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>静岡県<div class="sub3">静岡県（県所管の保健所分・令和8年7月の新規許可）</div></td>
+  <td>CSV</td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><b class="ok">あり</b></td>
+  <td>1件</td>
+  <td><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/106863/R8.7%E6%97%85%E9%A4%A8%E6%A5%AD%E6%96%B0%E8%A6%8F%E8%A8%B1%E5%8F%AF%E6%96%BD%E8%A8%AD.csv" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>—<div class="sub3"></div></td>
+  <td>HTML</td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td>0件</td>
+  <td><a href="https://search.ckan.jp/datasets/data.bodik.jp__dataset:252018_p_56091" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>—<div class="sub3"></div></td>
+  <td>HTML</td>
+  <td><span class="ng">なし</span></td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td>0件</td>
+  <td><a href="http://www.c-online.net/data/hotel/2024.html" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr><tr>
+  <td>—<div class="sub3"></div></td>
+  <td>HTML</td>
+  <td><b class="ok">あり</b></td>
+  <td><b class="ok">あり</b></td>
+  <td><span class="ng">なし</span></td>
+  <td><span class="ng">なし</span></td>
+  <td><b class="ok">あり</b></td>
+  <td>0件</td>
+  <td><a href="https://data.bodik.jp/dataset/272159_ryokan/resource/34091e6b-3200-4858-b573-01d3588c6f73/view/7f10a1d0-43de-473a-8188-089f9e9d0914" target="_blank" rel="noopener">公表ファイル →</a></td>
+</tr>
+</table></div>
+<p>「氏名欄」は、その公表ファイルに営業者氏名・代表者氏名の列が<b>あるか</b>を示しています。<b>当サイトはこの欄の内容を収集も掲載もしていません。</b>個人に関する情報だからです。表に載せているのは「自治体側が公表しているかどうか」という事実だけです。</p>
+<p>保健所を設置する自治体は都道府県47と保健所設置市・特別区をあわせて全国で約155あります。この表はまだその一部です。</p>
+</div>
+</details>
+
+<div class="filters">
+<div class="fgrid">
+<select id="f-pref"><option value="">都道府県（すべて）</option><option value="栃木県">栃木県</option><option value="長野県">長野県</option><option value="静岡県">静岡県</option></select>
+<select id="f-ty"><option value="">営業形態（すべて）</option><option value="kan-i">簡易宿所</option><option value="hotel">旅館・ホテル</option><option value="other">その他・不明</option></select>
+<select id="f-judge"><option value="">A/B/C（すべて）</option><option value="A">A：屋号のWeb痕跡が見つからない</option><option value="B">B：痕跡が少ない／未確認</option><option value="C">C：痕跡あり／許可年月日が非公表</option></select>
+<select id="f-band"><option value="">許可からの経過（すべて）</option><option value="b0">6ヶ月以内</option><option value="b2">13〜24ヶ月</option><option value="b3">25〜60ヶ月</option><option value="b4">5年超</option></select>
+<select id="f-ex"><option value="">目印（すべて）</option><option value="chain">全国チェーン</option><option value="public">公共・保養・研修</option><option value="camp">キャンプ・山小屋</option><option value="none">（除外規則に当たらない）</option></select>
+<input id="f-q" type="search" placeholder="施設名・所在地で絞り込む">
+</div>
+<div class="hit" id="hit"></div>
+</div>
+
+<main><div id="list">
+<article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b0" data-q="ｔｅｎｍａ ｅｊｉｒｉ tenma ejiri 静岡市清水区江尻東三丁目４番２０号 静岡市清水区江尻東三丁目4番20号 静岡市">
+  <div class="left"><div class="mo hot">0ヶ月<small>経過</small></div>
+       <div class="pd">2026-07-31 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ＴＥＮＭＡ ＥＪＩＲＩ</h3>
+    <div class="kv"><span>所在地</span><b>静岡市清水区江尻東三丁目４番２０号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年7月の新規許可）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 1ドメインの言及</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/106863/R8.7%E6%97%85%E9%A4%A8%E6%A5%AD%E6%96%B0%E8%A6%8F%E8%A8%B1%E5%8F%AF%E6%96%BD%E8%A8%AD.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="B" data-ex="none" data-band="b0" data-q="ポーラーハウス南軽井沢3八風湖 ポーラーハウス南軽井沢3八風湖 北佐久郡軽井沢町発地９０３－２ 北佐久郡軽井沢町発地903－2 北佐久郡軽井沢町">
+  <div class="left"><div class="mo hot">2ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-16 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">簡易宿所</span></div>
+    <h3>ポーラーハウス南軽井沢3八風湖</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町発地９０３－２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 1ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ルグラン軽井沢ホテル＆リゾート ルグラン軽井沢ホテル＆リゾート 北佐久郡軽井沢町発地大平８６４－４ 北佐久郡軽井沢町発地大平864－4 北佐久郡軽井沢町">
+  <div class="left"><div class="mo ">8年1ヶ月<small>経過</small></div>
+       <div class="pd">2018-07-17 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ルグラン軽井沢ホテル＆リゾート</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町発地大平８６４－４</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル アーバングレイス宇都宮 ホテル アーバングレイス宇都宮 宇都宮市江野町2番1号 宇都宮市江野町2番1号 宇都宮市">
+  <div class="left"><div class="mo ">9年8ヶ月<small>経過</small></div>
+       <div class="pd">2016-12-05 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル アーバングレイス宇都宮</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市江野町2番1号</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 206室 ／ 収容 260人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ルグラン旧軽井沢 ルグラン旧軽井沢 北佐久郡軽井沢町大字軽井沢４６９－４ 北佐久郡軽井沢町大字軽井沢469－4 北佐久郡軽井沢町">
+  <div class="left"><div class="mo ">10年1ヶ月<small>経過</small></div>
+       <div class="pd">2016-07-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ルグラン旧軽井沢</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町大字軽井沢４６９－４</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ヴィエンヌ ホテル ヴィエンヌ 宇都宮市川田町749-1 宇都宮市川田町749-1 宇都宮市">
+  <div class="left"><div class="mo ">13年6ヶ月<small>経過</small></div>
+       <div class="pd">2013-02-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ヴィエンヌ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町749-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 12室 ／ 収容 24人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="B" data-ex="none" data-band="b4" data-q="行動コーチングアカデミー 行動コーチングアカデミー 北佐久郡御代田町塩野３１８０－９８ 北佐久郡御代田町塩野3180－98 北佐久郡御代田町">
+  <div class="left"><div class="mo ">14年1ヶ月<small>経過</small></div>
+       <div class="pd">2012-07-11 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">簡易宿所</span></div>
+    <h3>行動コーチングアカデミー</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡御代田町塩野３１８０－９８</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="chain" data-band="b4" data-q="ｊｒ東日本ホテルメッツ 宇都宮 jr東日本ホテルメッツ 宇都宮 宇都宮市川向町1番23号 宇都宮市川向町1番23号 宇都宮市">
+  <div class="left"><div class="mo ">14年5ヶ月<small>経過</small></div>
+       <div class="pd">2012-03-22 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>ＪＲ東日本ホテルメッツ 宇都宮</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川向町1番23号</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 158室 ／ 収容 348人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="chain" data-band="b4" data-q="リッチモンドホテル宇都宮駅前アネックス リッチモンドホテル宇都宮駅前アネックス 宇都宮市駅前通り3-6-5 宇都宮市駅前通り3-6-5 宇都宮市">
+  <div class="left"><div class="mo ">15年8ヶ月<small>経過</small></div>
+       <div class="pd">2010-11-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>リッチモンドホテル宇都宮駅前アネックス</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り3-6-5</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 184室 ／ 収容 375人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル フェアリーキッス３ ホテル フェアリーキッス3 宇都宮市江曽島町2059-2 宇都宮市江曽島町2059-2 宇都宮市">
+  <div class="left"><div class="mo ">15年8ヶ月<small>経過</small></div>
+       <div class="pd">2010-12-15 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル フェアリーキッス３</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市江曽島町2059-2</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 22室 ／ 収容 44人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル フェアリーシックス ホテル フェアリーシックス 宇都宮市川田町889-1 宇都宮市川田町889-1 宇都宮市">
+  <div class="left"><div class="mo ">15年10ヶ月<small>経過</small></div>
+       <div class="pd">2010-10-22 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル フェアリーシックス</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町889-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 22室 ／ 収容 44人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="サンヒルズゴルフアンドリゾート サンヒルズゴルフアンドリゾート 宇都宮市叶谷町715 宇都宮市叶谷町715 宇都宮市">
+  <div class="left"><div class="mo ">17年3ヶ月<small>経過</small></div>
+       <div class="pd">2009-05-01 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>サンヒルズゴルフアンドリゾート</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市叶谷町715</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 82室 ／ 収容 223人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ニューイタヤ ホテル ニューイタヤ 宇都宮市大通り2-4-6 宇都宮市大通り2-4-6 宇都宮市">
+  <div class="left"><div class="mo ">17年11ヶ月<small>経過</small></div>
+       <div class="pd">2008-09-19 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ニューイタヤ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市大通り2-4-6</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 230室 ／ 収容 271人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルセレクトイン宇都宮 ホテルセレクトイン宇都宮 宇都宮市今泉町431 宇都宮市今泉町431 宇都宮市">
+  <div class="left"><div class="mo ">18年1ヶ月<small>経過</small></div>
+       <div class="pd">2008-07-16 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルセレクトイン宇都宮</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市今泉町431</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 108室 ／ 収容 126人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル東日本宇都宮 ホテル東日本宇都宮 宇都宮市上大曽町492-1 宇都宮市上大曽町492-1 宇都宮市">
+  <div class="left"><div class="mo ">19年1ヶ月<small>経過</small></div>
+       <div class="pd">2007-07-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル東日本宇都宮</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市上大曽町492-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 115室 ／ 収容 182人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ｌｕｘｅ ホテル luxe 宇都宮市川田町1046番地1 宇都宮市川田町1046番地1 宇都宮市">
+  <div class="left"><div class="mo ">19年5ヶ月<small>経過</small></div>
+       <div class="pd">2007-03-08 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ＬＵＸＥ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町1046番地1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 24室 ／ 収容 48人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ｍ ホテル m 宇都宮市一番町3番13号 宇都宮市一番町3番13号 宇都宮市">
+  <div class="left"><div class="mo ">19年10ヶ月<small>経過</small></div>
+       <div class="pd">2006-10-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル Ｍ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市一番町3番13号</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 30室 ／ 収容 38人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ラグーン ホテル ラグーン 宇都宮市江曽島町2058-1 宇都宮市江曽島町2058-1 宇都宮市">
+  <div class="left"><div class="mo ">20年7ヶ月<small>経過</small></div>
+       <div class="pd">2005-12-28 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ラグーン</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市江曽島町2058-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 21室 ／ 収容 42人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル カサブランカ ホテル カサブランカ 宇都宮市上籠谷町2067 宇都宮市上籠谷町2067 宇都宮市">
+  <div class="left"><div class="mo ">20年8ヶ月<small>経過</small></div>
+       <div class="pd">2005-12-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル カサブランカ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市上籠谷町2067</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 12室 ／ 収容 24人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="chain" data-band="b4" data-q="リッチモンドホテル宇都宮駅前 リッチモンドホテル宇都宮駅前 宇都宮市駅前通り3丁目5-12 宇都宮市駅前通り3丁目5-12 宇都宮市">
+  <div class="left"><div class="mo ">21年2ヶ月<small>経過</small></div>
+       <div class="pd">2005-06-17 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>リッチモンドホテル宇都宮駅前</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り3丁目5-12</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 221室 ／ 収容 273人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルフェアリーキッス ホテルフェアリーキッス 宇都宮市川田町864-1 宇都宮市川田町864-1 宇都宮市">
+  <div class="left"><div class="mo ">21年8ヶ月<small>経過</small></div>
+       <div class="pd">2004-12-07 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルフェアリーキッス</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町864-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 32室 ／ 収容 64人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ミント ホテル ミント 宇都宮市上大曽町449-2 宇都宮市上大曽町449-2 宇都宮市">
+  <div class="left"><div class="mo ">22年6ヶ月<small>経過</small></div>
+       <div class="pd">2004-02-13 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ミント</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市上大曽町449-2</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 18室 ／ 収容 36人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="koakuma koakuma 宇都宮市川田町868-1 宇都宮市川田町868-1 宇都宮市">
+  <div class="left"><div class="mo ">23年4ヶ月<small>経過</small></div>
+       <div class="pd">2003-03-31 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>Koakuma</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町868-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 12室 ／ 収容 24人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル フラワー ホテル フラワー 宇都宮市川田町732-1 宇都宮市川田町732-1 宇都宮市">
+  <div class="left"><div class="mo ">23年6ヶ月<small>経過</small></div>
+       <div class="pd">2003-01-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル フラワー</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町732-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 20室 ／ 収容 40人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="chain" data-band="b4" data-q="東横イン宇都宮駅前ⅰ 東横イン宇都宮駅前ⅰ 宇都宮市今泉1-4-29 宇都宮市今泉1-4-29 宇都宮市">
+  <div class="left"><div class="mo ">24年2ヶ月<small>経過</small></div>
+       <div class="pd">2002-06-26 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>東横イン宇都宮駅前Ⅰ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市今泉1-4-29</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 352室 ／ 収容 704人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ファイン ホテル ファイン 宇都宮市川田町784-1 宇都宮市川田町784-1 宇都宮市">
+  <div class="left"><div class="mo ">25年2ヶ月<small>経過</small></div>
+       <div class="pd">2001-05-31 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ファイン</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町784-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 13室 ／ 収容 26人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="public" data-band="b4" data-q="とちぎ青少年センター とちぎ青少年センター 宇都宮市駒生1丁目1-6 宇都宮市駒生1丁目1-6 宇都宮市">
+  <div class="left"><div class="mo ">25年2ヶ月<small>経過</small></div>
+       <div class="pd">2001-06-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span><span class="t ex">公共・保養・研修</span></div>
+    <h3>とちぎ青少年センター</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駒生1丁目1-6</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 15室 ／ 収容 15人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="B" data-ex="none" data-band="b4" data-q="ベルキャビン カフェ＆ゲストハウス ベルキャビン カフェ＆ゲストハウス 北佐久郡軽井沢町大字長倉２３４８－１２ 北佐久郡軽井沢町大字長倉2348－12 北佐久郡軽井沢町">
+  <div class="left"><div class="mo ">26年7ヶ月<small>経過</small></div>
+       <div class="pd">2000-01-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">簡易宿所</span></div>
+    <h3>ベルキャビン カフェ＆ゲストハウス</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町大字長倉２３４８－１２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="hotel take １ hotel take 1 宇都宮市川田町871-1 宇都宮市川田町871-1 宇都宮市">
+  <div class="left"><div class="mo ">27年1ヶ月<small>経過</small></div>
+       <div class="pd">1999-07-05 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>HOTEL Take １</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町871-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 18室 ／ 収容 36人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルエムズ５５５ ホテルエムズ555 宇都宮市越戸町326 宇都宮市越戸町326 宇都宮市">
+  <div class="left"><div class="mo ">28年4ヶ月<small>経過</small></div>
+       <div class="pd">1998-04-24 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルエムズ５５５</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市越戸町326</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 20室 ／ 収容 40人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="パシフィックホテル パシフィックホテル 宇都宮市鐺山町東原2007 宇都宮市鐺山町東原2007 宇都宮市">
+  <div class="left"><div class="mo ">32年1ヶ月<small>経過</small></div>
+       <div class="pd">1994-07-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>パシフィックホテル</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市鐺山町東原2007</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 28室 ／ 収容 30人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ジェード（jyedo） ホテル ジェード（jyedo） 宇都宮市川田町869 宇都宮市川田町869 宇都宮市">
+  <div class="left"><div class="mo ">35年4ヶ月<small>経過</small></div>
+       <div class="pd">1991-04-16 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ジェード（Jyedo）</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町869</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 25室 ／ 収容 50人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル フェアリーキッス２ ホテル フェアリーキッス2 宇都宮市川田町1022-1 宇都宮市川田町1022-1 宇都宮市">
+  <div class="left"><div class="mo ">37年1ヶ月<small>経過</small></div>
+       <div class="pd">1989-07-25 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル フェアリーキッス２</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町1022-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 13室 ／ 収容 26人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ジェームスディーン ホテル ジェームスディーン 宇都宮市川田町876-2 宇都宮市川田町876-2 宇都宮市">
+  <div class="left"><div class="mo ">37年1ヶ月<small>経過</small></div>
+       <div class="pd">1989-06-29 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ジェームスディーン</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町876-2</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 24室 ／ 収容 48人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="栃木県青年会館 栃木県青年会館 宇都宮市駒生1-1-6 宇都宮市駒生1-1-6 宇都宮市">
+  <div class="left"><div class="mo ">39年4ヶ月<small>経過</small></div>
+       <div class="pd">1987-04-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>栃木県青年会館</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駒生1-1-6</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 39室 ／ 収容 179人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ｈｏｔｅｌ ｆａｉｒｙ ｇａｒｄｅｎ hotel fairy garden 宇都宮市海道町801 宇都宮市海道町801 宇都宮市">
+  <div class="left"><div class="mo ">40年1ヶ月<small>経過</small></div>
+       <div class="pd">1986-07-24 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ＨＯＴＥＬ ＦＡＩＲＹ ＧＡＲＤＥＮ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市海道町801</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 23室 ／ 収容 46人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル アプリコット ホテル アプリコット 宇都宮市飯田町351 宇都宮市飯田町351 宇都宮市">
+  <div class="left"><div class="mo ">41年8ヶ月<small>経過</small></div>
+       <div class="pd">1984-12-26 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル アプリコット</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市飯田町351</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 15室 ／ 収容 30人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル盛松館 ホテル盛松館 静岡県静岡市駿河区稲川一丁目１番１６号 静岡県静岡市駿河区稲川一丁目1番16号 静岡市">
+  <div class="left"><div class="mo ">41年8ヶ月<small>経過</small></div>
+       <div class="pd">1984-11-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル盛松館</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区稲川一丁目１番１６号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="観水荘 観水荘 静岡県静岡市葵区井川６１７番地 静岡県静岡市葵区井川617番地 静岡市">
+  <div class="left"><div class="mo ">41年8ヶ月<small>経過</small></div>
+       <div class="pd">1984-12-10 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>観水荘</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区井川６１７番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル艶 ホテル艶 静岡県静岡市葵区川辺町二丁目５番１７号 静岡県静岡市葵区川辺町二丁目5番17号 静岡市">
+  <div class="left"><div class="mo ">41年8ヶ月<small>経過</small></div>
+       <div class="pd">1984-12-20 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル艶</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区川辺町二丁目５番１７号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ラララ ホテル ラララ 静岡県静岡市葵区千代一丁目１４番１９号 静岡県静岡市葵区千代一丁目14番19号 静岡市">
+  <div class="left"><div class="mo ">41年9ヶ月<small>経過</small></div>
+       <div class="pd">1984-11-14 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル ラララ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区千代一丁目１４番１９号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ｈｏｔｅｌ ｓｅｐｉａ ｌｕｘ hotel sepia lux 静岡県静岡市清水区庵原町１３７番地の３ 静岡県静岡市清水区庵原町137番地の3 静岡市">
+  <div class="left"><div class="mo ">41年9ヶ月<small>経過</small></div>
+       <div class="pd">1984-11-14 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ＨＯＴＥＬ ＳＥＰＩＡ ＬＵＸ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区庵原町１３７番地の３</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="メルヘン メルヘン 宇都宮市駒生町1822 宇都宮市駒生町1822 宇都宮市">
+  <div class="left"><div class="mo ">41年10ヶ月<small>経過</small></div>
+       <div class="pd">1984-10-12 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>メルヘン</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駒生町1822</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 7室 ／ 収容 14人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルａｕｂｅ ホテルaube 宇都宮市飯田町349 宇都宮市飯田町349 宇都宮市">
+  <div class="left"><div class="mo ">42年<small>経過</small></div>
+       <div class="pd">1984-08-06 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルＡＵＢＥ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市飯田町349</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 11室 ／ 収容 22人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ウッズ ホテル ウッズ 宇都宮市川田町587-1 宇都宮市川田町587-1 宇都宮市">
+  <div class="left"><div class="mo ">42年4ヶ月<small>経過</small></div>
+       <div class="pd">1984-04-24 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル ウッズ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町587-1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 23室 ／ 収容 46人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="エーゲ海 エーゲ海 静岡県静岡市駿河区広野五丁目２９－２１ 静岡県静岡市駿河区広野五丁目29－21 静岡市">
+  <div class="left"><div class="mo ">42年4ヶ月<small>経過</small></div>
+       <div class="pd">1984-04-14 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>エーゲ海</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区広野五丁目２９－２１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="朝富士 朝富士 静岡県静岡市清水区松原町１番５号 静岡県静岡市清水区松原町1番5号 静岡市">
+  <div class="left"><div class="mo ">42年5ヶ月<small>経過</small></div>
+       <div class="pd">1984-03-22 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>朝富士</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区松原町１番５号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル フェアリーセブン ホテル フェアリーセブン 宇都宮市川田町870 宇都宮市川田町870 宇都宮市">
+  <div class="left"><div class="mo ">42年6ヶ月<small>経過</small></div>
+       <div class="pd">1984-02-15 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル フェアリーセブン</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町870</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 11室 ／ 収容 22人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル艶 ホテル艶 静岡県静岡市駿河区西脇４１３番地の１ 静岡県静岡市駿河区西脇413番地の1 静岡市">
+  <div class="left"><div class="mo ">42年6ヶ月<small>経過</small></div>
+       <div class="pd">1984-02-08 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル艶</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区西脇４１３番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルセピア ホテルセピア 静岡県静岡市駿河区馬渕三丁目２番２２号 静岡県静岡市駿河区馬渕三丁目2番22号 静岡市">
+  <div class="left"><div class="mo ">42年7ヶ月<small>経過</small></div>
+       <div class="pd">1983-12-28 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテルセピア</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区馬渕三丁目２番２２号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ２５ ホテル 25 静岡県静岡市駿河区広野五丁目３２番１０号 静岡県静岡市駿河区広野五丁目32番10号 静岡市">
+  <div class="left"><div class="mo ">42年9ヶ月<small>経過</small></div>
+       <div class="pd">1983-10-31 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル ２５</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区広野五丁目３２番１０号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ミューズ ホテル ミューズ 静岡県静岡市清水区鳥坂１９８番地 静岡県静岡市清水区鳥坂198番地 静岡市">
+  <div class="left"><div class="mo ">42年9ヶ月<small>経過</small></div>
+       <div class="pd">1983-11-02 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル ミューズ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区鳥坂１９８番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="山の宿 ｐ くさぎ里 山の宿 p くさぎ里 静岡県静岡市葵区梅ヶ島４７９７－１ 静岡県静岡市葵区梅ヶ島4797－1 静岡市">
+  <div class="left"><div class="mo ">42年9ヶ月<small>経過</small></div>
+       <div class="pd">1983-11-14 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>山の宿 Ｐ くさぎ里</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区梅ヶ島４７９７－１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルアソシア静岡 ホテルアソシア静岡 静岡県静岡市葵区黒金町５６番地 静岡県静岡市葵区黒金町56番地 静岡市">
+  <div class="left"><div class="mo ">42年11ヶ月<small>経過</small></div>
+       <div class="pd">1983-09-10 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテルアソシア静岡</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区黒金町５６番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ｊａｌａｎ ホテル jalan 静岡県静岡市駿河区池田１５０番地の１ 静岡県静岡市駿河区池田150番地の1 静岡市">
+  <div class="left"><div class="mo ">43年1ヶ月<small>経過</small></div>
+       <div class="pd">1983-07-01 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル ＪＡＬＡＮ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区池田１５０番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ａｑｕａ ｉｎ aqua in 静岡県静岡市葵区安西四丁目８番地の１ 静岡県静岡市葵区安西四丁目8番地の1 静岡市">
+  <div class="left"><div class="mo ">43年5ヶ月<small>経過</small></div>
+       <div class="pd">1983-03-19 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ＡＱＵＡ ｉｎ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区安西四丁目８番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="峯屋 峯屋 静岡県静岡市葵区井川６８８番地 静岡県静岡市葵区井川688番地 静岡市">
+  <div class="left"><div class="mo ">43年6ヶ月<small>経過</small></div>
+       <div class="pd">1983-02-01 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>峯屋</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区井川６８８番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル静岡アイネ ホテル静岡アイネ 静岡県静岡市駿河区中島６２６番地 静岡県静岡市駿河区中島626番地 静岡市">
+  <div class="left"><div class="mo ">43年6ヶ月<small>経過</small></div>
+       <div class="pd">1983-02-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル静岡アイネ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区中島６２６番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="せせらぎの宿 紅竹 せせらぎの宿 紅竹 静岡県静岡市葵区富沢１４４４－１０ 静岡県静岡市葵区富沢1444－10 静岡市">
+  <div class="left"><div class="mo ">43年8ヶ月<small>経過</small></div>
+       <div class="pd">1982-12-02 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>せせらぎの宿 紅竹</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区富沢１４４４－１０</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル 心の鍵 ホテル 心の鍵 静岡県静岡市清水区堀込７６１番地の２ 静岡県静岡市清水区堀込761番地の2 静岡市">
+  <div class="left"><div class="mo ">43年8ヶ月<small>経過</small></div>
+       <div class="pd">1982-12-08 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル 心の鍵</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区堀込７６１番地の２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ｈａｙａｎ hayan 静岡県静岡市葵区慈悲尾３６６番地 静岡県静岡市葵区慈悲尾366番地 静岡市">
+  <div class="left"><div class="mo ">43年8ヶ月<small>経過</small></div>
+       <div class="pd">1982-12-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ＨＡＹＡＮ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区慈悲尾３６６番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="民宿竹下ナギサヤ 民宿竹下ナギサヤ 静岡県静岡市清水区三保２４１４番地の３ 静岡県静岡市清水区三保2414番地の3 静岡市">
+  <div class="left"><div class="mo ">43年8ヶ月<small>経過</small></div>
+       <div class="pd">1982-12-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>民宿竹下ナギサヤ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区三保２４１４番地の３</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル２１ ホテル21 静岡県静岡市駿河区根古屋１６７－２０ 静岡県静岡市駿河区根古屋167－20 静岡市">
+  <div class="left"><div class="mo ">43年10ヶ月<small>経過</small></div>
+       <div class="pd">1982-10-22 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル２１</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区根古屋１６７－２０</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="kan-i" data-judge="B" data-ex="camp" data-band="b4" data-q="静岡市玉川キャンプセンター 静岡市玉川キャンプセンター 静岡県静岡市葵区長妻田７５５ 静岡県静岡市葵区長妻田755 静岡市">
+  <div class="left"><div class="mo ">44年3ヶ月<small>経過</small></div>
+       <div class="pd">1982-05-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">簡易宿所</span><span class="t ex">キャンプ・山小屋</span></div>
+    <h3>静岡市玉川キャンプセンター</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区長妻田７５５</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルうつのみや ホテルうつのみや 宇都宮市川田町868-2 宇都宮市川田町868-2 宇都宮市">
+  <div class="left"><div class="mo ">44年8ヶ月<small>経過</small></div>
+       <div class="pd">1981-12-02 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルうつのみや</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市川田町868-2</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 10室 ／ 収容 20人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル ドール ホテル ドール 静岡県静岡市駿河区丸子３０２１番地の１ 静岡県静岡市駿河区丸子3021番地の1 静岡市">
+  <div class="left"><div class="mo ">44年10ヶ月<small>経過</small></div>
+       <div class="pd">1981-10-02 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ホテル ドール</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区丸子３０２１番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="民宿 やまいち 民宿 やまいち 静岡県静岡市葵区井川５２０番地 静岡県静岡市葵区井川520番地 静岡市">
+  <div class="left"><div class="mo ">45年<small>経過</small></div>
+       <div class="pd">1981-08-26 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>民宿 やまいち</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区井川５２０番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ふるさと ふるさと 静岡県静岡市葵区田代６７８番地 静岡県静岡市葵区田代678番地 静岡市">
+  <div class="left"><div class="mo ">45年4ヶ月<small>経過</small></div>
+       <div class="pd">1981-04-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ふるさと</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区田代６７８番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテル 丸治 ホテル 丸治 宇都宮市泉町1-22 宇都宮市泉町1-22 宇都宮市">
+  <div class="left"><div class="mo ">46年1ヶ月<small>経過</small></div>
+       <div class="pd">1980-07-07 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテル 丸治</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市泉町1-22</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 124室 ／ 収容 142人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="静岡パークホテル 静岡パークホテル 静岡県静岡市駿河区南町１番１５号 静岡県静岡市駿河区南町1番15号 静岡市">
+  <div class="left"><div class="mo ">46年3ヶ月<small>経過</small></div>
+       <div class="pd">1980-05-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>静岡パークホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区南町１番１５号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="民宿 明ケ島 民宿 明ケ島 静岡県静岡市葵区口坂本１７６番地 静岡県静岡市葵区口坂本176番地 静岡市">
+  <div class="left"><div class="mo ">46年5ヶ月<small>経過</small></div>
+       <div class="pd">1980-03-03 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>民宿 明ケ島</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区口坂本１７６番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="ホテルサンルート宇都宮 ホテルサンルート宇都宮 宇都宮市駅前通り1-5-2 宇都宮市駅前通り1-5-2 宇都宮市">
+  <div class="left"><div class="mo ">46年6ヶ月<small>経過</small></div>
+       <div class="pd">1980-02-19 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>ホテルサンルート宇都宮</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り1-5-2</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 99室 ／ 収容 119人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="kan-i" data-judge="B" data-ex="none" data-band="b4" data-q="二軒小屋ロッヂ 二軒小屋ロッヂ 静岡県静岡市葵区田代１２８１番地の２ 静岡県静岡市葵区田代1281番地の2 静岡市">
+  <div class="left"><div class="mo ">46年11ヶ月<small>経過</small></div>
+       <div class="pd">1979-09-03 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">簡易宿所</span></div>
+    <h3>二軒小屋ロッヂ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区田代１２８１番地の２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="清水シティホテル 清水シティホテル 静岡県静岡市清水区真砂町２番２号 静岡県静岡市清水区真砂町2番2号 静岡市">
+  <div class="left"><div class="mo ">47年5ヶ月<small>経過</small></div>
+       <div class="pd">1979-03-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>清水シティホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区真砂町２番２号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="宇都宮リバーサイドホテル 宇都宮リバーサイドホテル 宇都宮市駅前通り2-1-22 宇都宮市駅前通り2-1-22 宇都宮市">
+  <div class="left"><div class="mo ">47年11ヶ月<small>経過</small></div>
+       <div class="pd">1978-09-07 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>宇都宮リバーサイドホテル</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り2-1-22</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 18室 ／ 収容 36人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="静岡ユーアイホテル 静岡ユーアイホテル 静岡県静岡市葵区両替町二丁目７－１３ 静岡県静岡市葵区両替町二丁目7－13 静岡市">
+  <div class="left"><div class="mo ">48年<small>経過</small></div>
+       <div class="pd">1978-08-09 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>静岡ユーアイホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区両替町二丁目７－１３</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="民宿やまもと 民宿やまもと 静岡県静岡市葵区口坂本４２７ 静岡県静岡市葵区口坂本427 静岡市">
+  <div class="left"><div class="mo ">48年8ヶ月<small>経過</small></div>
+       <div class="pd">1977-12-08 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>民宿やまもと</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区口坂本４２７</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="camp" data-band="b4" data-q="羽根田山荘 羽根田山荘 静岡県静岡市葵区口坂本４３５番地 静岡県静岡市葵区口坂本435番地 静岡市">
+  <div class="left"><div class="mo ">48年8ヶ月<small>経過</small></div>
+       <div class="pd">1977-12-08 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span><span class="t ex">キャンプ・山小屋</span></div>
+    <h3>羽根田山荘</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区口坂本４３５番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="宇都宮ステーションホテル 宇都宮ステーションホテル 宇都宮市駅前通り2-1-8 宇都宮市駅前通り2-1-8 宇都宮市">
+  <div class="left"><div class="mo ">49年1ヶ月<small>経過</small></div>
+       <div class="pd">1977-07-23 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>宇都宮ステーションホテル</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り2-1-8</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 67室 ／ 収容 127人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="ｈｏｔｅｌ ｓｅａｓｉｄｅ・ｖｉｌｌａ ｍｉｙａｂｉ hotel seaside・villa miyabi 静岡県静岡市駿河区根古屋１６７番地の２５ 静岡県静岡市駿河区根古屋167番地の25 静岡市">
+  <div class="left"><div class="mo ">49年1ヶ月<small>経過</small></div>
+       <div class="pd">1977-07-07 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>ＨＯＴＥＬ ＳＥＡＳＩＤＥ・ＶＩＬＬＡ ＭＩＹＡＢＩ</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区根古屋１６７番地の２５</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="サンパレスホテル サンパレスホテル 静岡県静岡市駿河区南町１１番２９号 静岡県静岡市駿河区南町11番29号 静岡市">
+  <div class="left"><div class="mo ">50年4ヶ月<small>経過</small></div>
+       <div class="pd">1976-03-29 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>サンパレスホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区南町１１番２９号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="富士見屋旅館 富士見屋旅館 宇都宮市鐺山町1056 宇都宮市鐺山町1056 宇都宮市">
+  <div class="left"><div class="mo ">51年4ヶ月<small>経過</small></div>
+       <div class="pd">1975-03-31 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>富士見屋旅館</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市鐺山町1056</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 14室 ／ 収容 32人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="静岡第一ホテル 静岡第一ホテル 静岡県静岡市駿河区泉町１番２１号 静岡県静岡市駿河区泉町1番21号 静岡市">
+  <div class="left"><div class="mo ">52年3ヶ月<small>経過</small></div>
+       <div class="pd">1974-05-10 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>静岡第一ホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区泉町１番２１号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="梅ケ島温泉ホテル梅薫楼(新館) 梅ケ島温泉ホテル梅薫楼(新館) 静岡県静岡市葵区梅ヶ島５２５８－４ 静岡県静岡市葵区梅ヶ島5258－4 静岡市">
+  <div class="left"><div class="mo ">52年4ヶ月<small>経過</small></div>
+       <div class="pd">1974-04-27 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>梅ケ島温泉ホテル梅薫楼(新館)</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区梅ヶ島５２５８－４</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="安倍之湯 安倍之湯 静岡県静岡市葵区梅ヶ島４２６４番地の１ 静岡県静岡市葵区梅ヶ島4264番地の1 静岡市">
+  <div class="left"><div class="mo ">52年7ヶ月<small>経過</small></div>
+       <div class="pd">1974-01-23 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>安倍之湯</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区梅ヶ島４２６４番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="中島屋グランドホテル 中島屋グランドホテル 静岡県静岡市葵区紺屋町３番地の１０ 静岡県静岡市葵区紺屋町3番地の10 静岡市">
+  <div class="left"><div class="mo ">52年9ヶ月<small>経過</small></div>
+       <div class="pd">1973-10-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>中島屋グランドホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区紺屋町３番地の１０</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="嵯娥 嵯娥 静岡県静岡市清水区秋吉町１番４号 静岡県静岡市清水区秋吉町1番4号 静岡市">
+  <div class="left"><div class="mo ">53年2ヶ月<small>経過</small></div>
+       <div class="pd">1973-06-23 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>嵯娥</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区秋吉町１番４号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="伏木荘 伏木荘 静岡県静岡市清水区西里７２７番地の２ 静岡県静岡市清水区西里727番地の2 静岡市">
+  <div class="left"><div class="mo ">53年6ヶ月<small>経過</small></div>
+       <div class="pd">1973-02-02 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>伏木荘</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区西里７２７番地の２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="梅乃家 梅乃家 静岡県静岡市駿河区南町２－８ 静岡県静岡市駿河区南町2－8 静岡市">
+  <div class="left"><div class="mo ">54年10ヶ月<small>経過</small></div>
+       <div class="pd">1971-10-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>梅乃家</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区南町２－８</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="旅館白菊 旅館白菊 静岡県静岡市葵区鷹匠一丁目９番４号 静岡県静岡市葵区鷹匠一丁目9番4号 静岡市">
+  <div class="left"><div class="mo ">60年<small>経過</small></div>
+       <div class="pd">1966-08-17 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>旅館白菊</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区鷹匠一丁目９番４号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="羽衣ホテル 羽衣ホテル 静岡県静岡市清水区三保１２８２番地の１ 静岡県静岡市清水区三保1282番地の1 静岡市">
+  <div class="left"><div class="mo ">60年9ヶ月<small>経過</small></div>
+       <div class="pd">1965-11-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>羽衣ホテル</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市清水区三保１２８２番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="旅館梢月 旅館梢月 静岡県静岡市駿河区東新田五丁目２１番１６号 静岡県静岡市駿河区東新田五丁目21番16号 静岡市">
+  <div class="left"><div class="mo ">61年7ヶ月<small>経過</small></div>
+       <div class="pd">1965-01-23 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>旅館梢月</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区東新田五丁目２１番１６号</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="B" data-ex="none" data-band="b4" data-q="きぬ川荘 きぬ川荘 宇都宮市上桑島町2451 宇都宮市上桑島町2451 宇都宮市">
+  <div class="left"><div class="mo ">70年1ヶ月<small>経過</small></div>
+       <div class="pd">1956-06-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">その他・不明</span></div>
+    <h3>きぬ川荘</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市上桑島町2451</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 8室 ／ 収容 16人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="待月樓 待月樓 静岡県静岡市駿河区丸子３３０５番地 静岡県静岡市駿河区丸子3305番地 静岡市">
+  <div class="left"><div class="mo ">70年1ヶ月<small>経過</small></div>
+       <div class="pd">1956-07-11 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>待月樓</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市駿河区丸子３３０５番地</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="静岡県" data-ty="hotel" data-judge="B" data-ex="none" data-band="b4" data-q="浮月 浮月 静岡県静岡市葵区紺屋町１１番地の１ 静岡県静岡市葵区紺屋町11番地の1 静岡市">
+  <div class="left"><div class="mo ">75年2ヶ月<small>経過</small></div>
+       <div class="pd">1951-06-11 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jB">B</span><span class="t">旅館・ホテル</span></div>
+    <h3>浮月</h3>
+    <div class="kv"><span>所在地</span><b>静岡県静岡市葵区紺屋町１１番地の１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>静岡県（県所管の保健所分・令和8年3月31日現在）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">未確認（検索していない／検索結果が空）</b></div>
+    <div class="src"><a href="https://opendata.pref.shizuoka.jp/dataset/12259/resource/105881/%E6%97%85%E9%A4%A8%E6%A5%AD%E8%A8%B1%E5%8F%AF%E5%85%A8%E6%96%BD%E8%A8%AD%EF%BC%88R8.3.31%E7%8F%BE%E5%9C%A8%EF%BC%89.csv" target="_blank" rel="noopener">出典：静岡県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="C" data-ex="none" data-band="b0" data-q="うぐいすの森j1031 うぐいすの森j1031 佐久市根岸４４９１番７６ 佐久市根岸4491番76 佐久市">
+  <div class="left"><div class="mo hot">1ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-29 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">旅館・ホテル</span></div>
+    <h3>うぐいすの森J1031</h3>
+    <div class="kv"><span>所在地</span><b>佐久市根岸４４９１番７６</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 9ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="C" data-ex="none" data-band="b0" data-q="方の家 方の家 北佐久郡軽井沢町大字茂沢字海付５６３－１４２ 北佐久郡軽井沢町大字茂沢字海付563－142 北佐久郡軽井沢町">
+  <div class="left"><div class="mo hot">2ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-24 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">旅館・ホテル</span></div>
+    <h3>方の家</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町大字茂沢字海付５６３－１４２</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 7ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="C" data-ex="none" data-band="b0" data-q="たくみの たくみの 佐久市布施２４７７－１５０ 佐久市布施2477－150 佐久市">
+  <div class="left"><div class="mo hot">2ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-24 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">簡易宿所</span></div>
+    <h3>たくみの</h3>
+    <div class="kv"><span>所在地</span><b>佐久市布施２４７７－１５０</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 6ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="C" data-ex="none" data-band="b0" data-q="エンパイル・ヴィラ本館 エンパイル・ヴィラ本館 佐久市鳴瀬６０２－２５ 佐久市鳴瀬602－25 佐久市">
+  <div class="left"><div class="mo hot">2ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-19 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">旅館・ホテル</span></div>
+    <h3>エンパイル・ヴィラ本館</h3>
+    <div class="kv"><span>所在地</span><b>佐久市鳴瀬６０２－２５</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 8ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="hotel" data-judge="C" data-ex="chain" data-band="b0" data-q="ホテルルートインgrand佐久 ホテルルートインgrand佐久 佐久市岩村田５５１３番地１ 佐久市岩村田5513番地1 佐久市">
+  <div class="left"><div class="mo hot">2ヶ月<small>経過</small></div>
+       <div class="pd">2026-06-12 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">旅館・ホテル</span><span class="t ex">全国チェーン</span></div>
+    <h3>ホテルルートインGrand佐久</h3>
+    <div class="kv"><span>所在地</span><b>佐久市岩村田５５１３番地１</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 9ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="none" data-band="b2" data-q="ｕｎｉｔｅｄ ｇａｒｄｅｎ ビル ３階 united garden ビル 3階 宇都宮市江野町2-12 united gardenビル4階 宇都宮市江野町2-12 united gardenビル4階 宇都宮市">
+  <div class="left"><div class="mo hot">1年9ヶ月<small>経過</small></div>
+       <div class="pd">2024-11-01 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span></div>
+    <h3>ＵＮＩＴＥＤ ＧＡＲＤＥＮ ビル ３階</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市江野町2-12 UNITED GARDENビル4階</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 1室 ／ 収容 12人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 3ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="none" data-band="b3" data-q="ｕｎｉｔｅｄ ｇａｒｄｅｎ united garden 宇都宮市江野町2-12 united gardenビル4階 宇都宮市江野町2-12 united gardenビル4階 宇都宮市">
+  <div class="left"><div class="mo ">2年7ヶ月<small>経過</small></div>
+       <div class="pd">2024-01-22 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span></div>
+    <h3>ＵＮＩＴＥＤ ＧＡＲＤＥＮ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市江野町2-12 UNITED GARDENビル4階</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 1室 ／ 収容 8人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 6ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="none" data-band="b3" data-q="メモリアルホール宙のみち メモリアルホール宙のみち 宇都宮市上欠町1110番1 宇都宮市上欠町1110番1 宇都宮市">
+  <div class="left"><div class="mo ">2年8ヶ月<small>経過</small></div>
+       <div class="pd">2023-12-25 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span></div>
+    <h3>メモリアルホール宙のみち</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市上欠町1110番1</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 4室 ／ 収容 15人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 3ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="C" data-ex="none" data-band="b4" data-q="nuku suite karuizawa nuku suite karuizawa 北佐久郡軽井沢町大字長倉１５０７番７ 北佐久郡軽井沢町大字長倉1507番7 北佐久郡軽井沢町">
+  <div class="left"><div class="mo ">5年10ヶ月<small>経過</small></div>
+       <div class="pd">2020-09-30 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">簡易宿所</span></div>
+    <h3>NUKU Suite Karuizawa</h3>
+    <div class="kv"><span>所在地</span><b>北佐久郡軽井沢町大字長倉１５０７番７</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 11ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="長野県" data-ty="kan-i" data-judge="C" data-ex="none" data-band="b4" data-q="ペンション ラ・ルウ ペンション ラ・ルウ 南佐久郡佐久穂町大字千代里２０９３－４９ 南佐久郡佐久穂町大字千代里2093－49 南佐久郡佐久穂町">
+  <div class="left"><div class="mo ">5年11ヶ月<small>経過</small></div>
+       <div class="pd">2020-08-28 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">簡易宿所</span></div>
+    <h3>ペンション ラ・ルウ</h3>
+    <div class="kv"><span>所在地</span><b>南佐久郡佐久穂町大字千代里２０９３－４９</b></div>
+    
+    <div class="kv"><span>許可した自治体</span><b>長野県（県所管の保健所分）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 5ドメインの言及</b></div>
+    <div class="src"><a href="https://www.pref.nagano.lg.jp/shokusei/kenko/shokuhin/seikatsu/documents/20260630hotel.csv" target="_blank" rel="noopener">出典：長野県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="chain" data-band="b4" data-q="東横イン宇都宮駅前ⅱ 東横イン宇都宮駅前ⅱ 宇都宮市今泉1-4-27 宇都宮市今泉1-4-27 宇都宮市">
+  <div class="left"><div class="mo ">6年2ヶ月<small>経過</small></div>
+       <div class="pd">2020-06-23 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>東横イン宇都宮駅前Ⅱ</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市今泉1-4-27</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 259室 ／ 収容 260人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 9ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="none" data-band="b4" data-q="ｈｏｔｅｌ ｅｌ ｔｏｃｈｉｇｉ ３ hotel el tochigi 3 宇都宮市今泉町847-12 宇都宮市今泉町847-12 宇都宮市">
+  <div class="left"><div class="mo ">6年10ヶ月<small>経過</small></div>
+       <div class="pd">2019-10-04 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span></div>
+    <h3>ＨＯＴＥＬ ＥＬ ＴＯＣＨＩＧＩ ３</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市今泉町847-12</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 5室 ／ 収容 16人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 8ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article><article class="c" data-pref="栃木県" data-ty="other" data-judge="C" data-ex="chain" data-band="b4" data-q="スマイルホテル宇都宮西口駅前 スマイルホテル宇都宮西口駅前 宇都宮市駅前通り3丁目4番9号 宇都宮市駅前通り3丁目4番9号 宇都宮市">
+  <div class="left"><div class="mo ">6年10ヶ月<small>経過</small></div>
+       <div class="pd">2019-10-21 許可</div></div>
+  <div class="body">
+    <div class="tags"><span class="j jC">C</span><span class="t">その他・不明</span><span class="t ex">全国チェーン</span></div>
+    <h3>スマイルホテル宇都宮西口駅前</h3>
+    <div class="kv"><span>所在地</span><b>宇都宮市駅前通り3丁目4番9号</b></div>
+    <div class="kv"><span>規模（公表値）</span><b>客室 120室 ／ 収容 212人</b></div>
+    <div class="kv"><span>許可した自治体</span><b>宇都宮市（保健所設置市）</b></div>
+    <div class="kv"><span>屋号のWeb痕跡</span><b class="tr">自治体以外に 7ドメインの言及</b></div>
+    <div class="src"><a href="https://catalog.city.utsunomiya.tochigi.jp/dataset/3ce0dba1-ad1a-416f-a2ad-288ec9014353/resource/80ec2033-9919-400d-9f0b-0e4e6fa8b38e/download/092011_seikatsueisei_kankyo_ryokanhotel.csv" target="_blank" rel="noopener">出典：栃木県が公表している営業許可施設一覧 →</a></div>
+  </div>
+</article>
+<div class="none" id="empty" style="display:none">条件に合う施設がありません。絞り込みを緩めてください。</div>
+</div></main>
+
+<footer>
+<p><b>出典と扱い方</b></p>
+<ul>
+<li>掲載しているのは、各自治体が公表している旅館業法の営業許可施設一覧に<b>事実として書かれた項目</b>（施設名称・所在地・許可年月日・営業形態・客室数・収容人員）と、そこから機械的に計算した経過月数、および屋号で検索した結果のドメイン数だけです。出典本文の説明は転載していません。</li>
+<li><b>個人に関する情報（営業者氏名・代表者氏名・電話番号・申請者住所）は収集も掲載もしていません。</b>公表ファイルに載っていても抽出していません。</li>
+<li>掲載は<b>営業の勧誘・売買の斡旋を目的とするものではありません。</b>施設の稼働状況・空室・売却意向・経営状態を示すものでもありません。各施設への連絡は、正当な目的の範囲で、利用者自身の責任で行ってください。</li>
+<li>許可の内容は変更・承継・廃止されます。最新の状況は必ず出典元の自治体の公表ファイルと所管保健所でご確認ください。</li>
+<li>収集は各サイトの robots.txt に従い、低頻度で行っています。掲載の取り下げをご希望の自治体・事業者はご連絡ください。</li>
+</ul>
+<p><b>制度の一次情報</b></p>
+<ul>
+<li><a href="https://laws.e-gov.go.jp/law/323AC0000000138" target="_blank" rel="noopener">旅館業法（第2条 定義／第3条 営業の許可）</a>（e-Gov法令検索）</li><li><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/seikatu-eisei/index_00001.html" target="_blank" rel="noopener">旅館業法の概要・営業許可の手引き</a>（厚生労働省）</li><li><a href="https://www.mhlw.go.jp/toukei/list/36-19.html" target="_blank" rel="noopener">衛生行政報告例（旅館業の施設数の全国統計）</a>（厚生労働省）</li><li><a href="https://www.mlit.go.jp/kankocho/minpaku/" target="_blank" rel="noopener">住宅宿泊事業法（民泊）との違い</a>（観光庁 民泊制度ポータル）</li>
+</ul>
+<p>旅館業 許可インデックス｜2026-08-27時点で108件を掲載。当サイトでは会員登録・決済・お問い合わせフォームによる個人情報の収集は行っていません。</p>
+</footer>
+</div>
+<script>
+(function(){
+  var list=document.getElementById('list'), hit=document.getElementById('hit'), empty=document.getElementById('empty');
+  var cards=[].slice.call(list.getElementsByClassName('c'));
+  var keys=['pref','ty','judge','band','ex'];
+  var sels=keys.map(function(k){ return document.getElementById('f-'+k) });
+  var q=document.getElementById('f-q');
+  function apply(){
+    var t=(q.value||'').trim().toLowerCase(), n=0;
+    for(var i=0;i<cards.length;i++){
+      var c=cards[i], ok=true;
+      for(var k=0;k<keys.length;k++){
+        var v=sels[k].value;
+        if(v && c.getAttribute('data-'+keys[k])!==v){ ok=false; break }
+      }
+      if(ok && t && c.getAttribute('data-q').indexOf(t)<0) ok=false;
+      c.style.display=ok?'':'none';
+      if(ok) n++;
+    }
+    hit.textContent=n+'件を表示中（全'+cards.length+'件・許可からの経過月数が短い順、A判定を上に）';
+    if(empty) empty.style.display=(n===0&&cards.length>0)?'':'none';
+  }
+  sels.forEach(function(s){ s.addEventListener('change',apply) });
+  q.addEventListener('input',apply);
+  apply();
+})();
+</script>
+
+<script data-goatcounter="https://junikeda.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body></html>
